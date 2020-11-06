@@ -3431,7 +3431,7 @@
 							</div>
 							<div class="tie-col-md-8 stream-item stream-item-top-wrapper">
 								<div class="stream-item-top">
-									<a href="https://legends11.in/" title="Buy Jannah Theme" target="_blank" rel="nofollow noopener"> <img src="wp-content/uploads/sites/8/2016/10/1.jpg" alt="Buy Jannah Theme" width="728" height="90" /> </a>
+									<a href="https://knovatik.com/" title="Buy Jannah Theme" target="_blank" rel="nofollow noopener"> <img src="wp-content/uploads/sites/8/2016/10/1.jpg" alt="Buy Jannah Theme" width="728" height="90" /> </a>
 								</div>
 							</div>
 						</div>
@@ -3446,12 +3446,12 @@
 												<ul id="menu-main-menu" class="menu" role="menubar">
 													@foreach($master as $ct)
 														<li id="menu-item-642" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-642 mega-menu mega-cat ">
-															<a href="{{'/'}}">{{$ct['name']}}</a>
+															<a href="{{$ct['url']}}">{{$ct['name']}}</a>
 															@if(!empty($ct['sub_cat']))
 																<ul class="sub-menu menu-sub-content">
 																	@foreach($ct['sub_cat'] as $sub_cat)
 																		<li id="menu-item-2451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2451">
-																			<a href="{{'/'}}"> <span aria-hidden="true" class="tie-menu-icon tie-icon-shopping-cart"></span>{{$sub_cat->name}}</a>
+																			<a href="{{$ct['url']}}/{{$sub_cat->url}}"> <span aria-hidden="true" class="tie-menu-icon tie-icon-shopping-cart"></span>{{$sub_cat->name}}</a>
 																		</li>
 																	@endforeach
 																</ul>

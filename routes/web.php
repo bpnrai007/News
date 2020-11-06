@@ -14,10 +14,11 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
 // Route::get('/', function () {
 // 	return view('index');
 // })
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/news/{slug?}', [HomeController::class, 'getPost']);

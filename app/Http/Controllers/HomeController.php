@@ -10,10 +10,6 @@ class HomeController extends Controller{
 	public function __construct(){
 
 		$cat 		= DB::table('category')->get();
-		// $pop_cat 	= DB::table('category')->where('status','=','active')->take(6)->get();
-		// echo "<pre>";
-		// print_r($pop_cat);
-		// exit();
 
 		$final_cat_subcat_array = array();
 		$i = 0;
@@ -38,7 +34,17 @@ class HomeController extends Controller{
 		$state 		= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
 		$pol 		= DB::table('post')->where('post_type','=','Politics')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
 		$politics 	= DB::table('post')->where('post_type','=','Politics')->where('status','=','active')->orderBy('id','desc')->take(4)->get();
+		$video 		= DB::table('post')->where('post_type','=','Video')->where('status','=','active')->orderBy('id','desc')->take(4)->get();
 		
-		return view('index')->with('post',$post)->with('news',$news)->with('sport',$sport)->with('vis',$vis)->with('state',$state)->with('pol',$pol)->with('politics',$politics);
+		return view('index')->with('post',$post)->with('news',$news)->with('sport',$sport)->with('vis',$vis)->with('state',$state)->with('pol',$pol)->with('politics',$politics)->with('video',$video);
 	}
+
+	function getPost($slug=""){
+		
+		$post 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		$state 		= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		return view('news', $post);
+	}
+
+
 }

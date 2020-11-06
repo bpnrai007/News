@@ -226,112 +226,57 @@
 										"read_more_text": ""
 									};
 									</script>
-									<div id="tie-block_1810" class="mag-box tie-col-sm-6 half-box has-first-big-post has-custom-color first-half-box" data-current="1">
+									<div id="tie-block_1160" class="mag-box big-post-top-box has-first-big-post box-dark-skin dark-skin has-custom-color" data-current="1">
 										<div class="container-wrapper">
 											<div class="mag-box-title the-global-title">
-												<h3> Racing </h3>
+												<h3> Sports </h3>
 												<div class="tie-alignright">
 													<div class="mag-box-options">
-														<ul class="slider-arrow-nav">
-															<li>
-																<a class="block-pagination prev-posts pagination-disabled" href="#"> <span class="tie-icon-angle-left" aria-hidden="true"></span> <span class="screen-reader-text">Previous page</span> </a>
-															</li>
-															<li>
-																<a class="block-pagination next-posts" href="#"> <span class="tie-icon-angle-right" aria-hidden="true"></span> <span class="screen-reader-text">Next page</span> </a>
-															</li>
+														<ul class="mag-box-filter-links is-flex-tabs">
+															<li><a href="#" class="block-ajax-term block-all-term active">State</a></li>
+															<li><a href="#" data-id="138" class="block-ajax-term">Entertainment</a></li>
+															<li><a href="#" data-id="139" class="block-ajax-term">Politics</a></li>
+															<li><a href="#" data-id="8" class="block-ajax-term">News</a></li>
+															<li><a href="#" data-id="140" class="block-ajax-term">Sport</a></li>
 														</ul>
 													</div>
 												</div>
 											</div>
 											<div class="mag-box-container clearfix">
 												<ul class="posts-items posts-list-container">
-													<li class="post-item is-trending tie-video"> <a aria-label="Play This Game for Free on Steam This Weekend" href="2016/10/17/play-this-game-for-free-on-steam-this-weekend/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span><span class="post-cat-wrap"><span class="post-cat tie-cat-75">Creative</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Play This Game for Free on Steam This Weekend" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/11-1-390x220.jpg" /></a>
+													<li class="post-item tie-video"> <a aria-label="Les nouveaux maillots du Real Madrid pour la saison" href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-138">Football</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Les nouveaux maillots du Real Madrid pour la saison" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/slide15-390x220.jpg" /></a>
 														<div class="post-details">
 															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">Fouad Badawy</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 17, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 17,704 </span>
+																</span><span class="date meta-item tie-icon">Oct 6, 2016</span>
+																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 9,554 </span>
 																</div>
 															</div>
-															<h2 class="post-title"><a href="2016/10/17/play-this-game-for-free-on-steam-this-weekend/index.html">Play This Game for Free on Steam This Weekend</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that&hellip;</p> <a class="more-link button" href="2016/10/17/play-this-game-for-free-on-steam-this-weekend/index.html">Read More &raquo;</a> </div>
-													</li>
-													<li class="post-item is-trending tie-video">
-														<a aria-label="At Value-Focused Hotels, the Free Breakfast Gets Bigger" href="2016/10/16/at-value-focused-hotels-the-free-breakfast-gets-bigger/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of At Value-Focused Hotels, the Free Breakfast Gets Bigger" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/garrett-parker-1-220x150.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="trending-post tie-icon-bolt trending-sm meta-item" aria-hidden="true"></span><span class="date meta-item tie-icon">Oct 16, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/16/at-value-focused-hotels-the-free-breakfast-gets-bigger/index.html">At Value-Focused Hotels, the Free Breakfast Gets Bigger</a></h2> </div>
-													</li>
-													<li class="post-item tie-video">
-														<a aria-label="There May Be No Consoles in the Future, EA Exec Says" href="2016/10/15/there-may-be-no-consoles-in-the-future-ea-exec-says/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of There May Be No Consoles in the Future, EA Exec Says" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/imag6-min-220x150.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 15, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/15/there-may-be-no-consoles-in-the-future-ea-exec-says/index.html">There May Be No Consoles in the Future, EA Exec Says</a></h2> </div>
-													</li>
-												</ul>
-												<div class="clearfix"></div>
-											</div>
-										</div>
-									</div>
-									<script>
-									var js_tie_block_1810 = {
-										"order": "latest",
-										"source": "id",
-										"id": ["48", "139", "140", "1"],
-										"number": "3",
-										"offset": "4",
-										"pagi": "next-prev",
-										"excerpt": "true",
-										"excerpt_length": 20,
-										"post_meta": "true",
-										"read_more": "true",
-										"breaking_effect": "reveal",
-										"sub_style": "2c",
-										"style": "large-first",
-										"title_length": "",
-										"media_overlay": "",
-										"read_more_text": ""
-									};
-									</script>
-									<div id="tie-block_304" class="mag-box tie-col-sm-6 half-box has-first-big-post has-custom-color second-half-box" data-current="1">
-										<div class="container-wrapper">
-											<div class="mag-box-title the-global-title">
-												<h3> LifeStyle </h3>
-												<div class="tie-alignright">
-													<div class="mag-box-options">
-														<ul class="slider-arrow-nav">
-															<li>
-																<a class="block-pagination prev-posts pagination-disabled" href="#"> <span class="tie-icon-angle-left" aria-hidden="true"></span> <span class="screen-reader-text">Previous page</span> </a>
-															</li>
-															<li>
-																<a class="block-pagination next-posts" href="#"> <span class="tie-icon-angle-right" aria-hidden="true"></span> <span class="screen-reader-text">Next page</span> </a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<div class="mag-box-container clearfix">
-												<ul class="posts-items posts-list-container">
-													<li class="post-item is-trending tie-standard"> <a aria-label="Budget issues force the Tour to be cancelled" href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span><span class="post-cat-wrap"><span class="post-cat tie-cat-84">Travel</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Budget issues force the Tour to be cancelled" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-2-390x220.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/yahia/index.html" class="author-name tie-icon" title="Yahia Ragae">Yahia Ragae</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 25, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 19,082 </span>
-																</div>
-															</div>
-															<h2 class="post-title"><a href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html">Budget issues force the Tour to be cancelled</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that&hellip;</p> <a class="more-link button" href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html">Read More &raquo;</a> </div>
-													</li>
-													<li class="post-item is-trending tie-standard">
-														<a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Not who has much is rich, but who gives much" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/post-1-220x150.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="trending-post tie-icon-bolt trending-sm meta-item" aria-hidden="true"></span><span class="date meta-item tie-icon">Oct 20, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">Not who has much is rich, but who gives much</a></h2> </div>
+															<h2 class="post-title"><a href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html">Les nouveaux maillots du Real Madrid pour la saison</a></h2>
+															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that want to&hellip;</p> <a class="more-link button" href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html">Read More &raquo;</a> </div>
 													</li>
 													<li class="post-item tie-standard">
-														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/slide-27-220x150.jpg" /></a>
+														<a aria-label="I enjoy hard work I love setting goals and achieving them" href="2016/10/06/i-enjoy-hard-work-i-love-setting-goals-and-achieving-them/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of I enjoy hard work I love setting goals and achieving them" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/image9-220x150.jpg" /></a>
 														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 19, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">The Top 10 Best Computer Speakers in the Market</a></h2> </div>
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 6, 2016</span></div>
+															<h2 class="post-title"><a href="2016/10/06/i-enjoy-hard-work-i-love-setting-goals-and-achieving-them/index.html">I enjoy hard work I love setting goals and achieving them</a></h2> </div>
+													</li>
+													<li class="post-item tie-video">
+														<a aria-label="Here What&#8217;s in Battlefield 1&#8217;s $80 Deluxe Edition" href="2016/10/04/here-whats-in-battlefield-1s-80-deluxe-edition/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Here What&#8217;s in Battlefield 1&#8217;s $80 Deluxe Edition" loading="lazy" data-src="wp-content/uploads/sites/8/2016/06/pexels-photo-12838-220x150.jpeg" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 4, 2016</span></div>
+															<h2 class="post-title"><a href="2016/10/04/here-whats-in-battlefield-1s-80-deluxe-edition/index.html">Here What&#8217;s in Battlefield 1&#8217;s $80 Deluxe Edition</a></h2> </div>
+													</li>
+													<li class="post-item tie-thumb">
+														<a aria-label="World champion Bingham knocks out Trump" href="2016/10/03/world-champion-bingham-knocks-out-trump/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of World champion Bingham knocks out Trump" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/image1-min-220x150.jpg" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 3, 2016</span></div>
+															<h2 class="post-title"><a href="2016/10/03/world-champion-bingham-knocks-out-trump/index.html">World champion Bingham knocks out Trump</a></h2> </div>
+													</li>
+													<li class="post-item tie-standard">
+														<a aria-label="Saturday&#8217;s non-league football" href="2016/10/03/saturdays-non-league-football/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Saturday&#8217;s non-league football" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-1-220x150.jpg" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 3, 2016</span></div>
+															<h2 class="post-title"><a href="2016/10/03/saturdays-non-league-football/index.html">Saturday&#8217;s non-league football</a></h2> </div>
 													</li>
 												</ul>
 												<div class="clearfix"></div>
@@ -339,26 +284,28 @@
 										</div>
 									</div>
 									<script>
-									var js_tie_block_304 = {
+									var js_tie_block_1160 = {
 										"order": "latest",
 										"source": "id",
-										"id": ["6"],
-										"number": "3",
+										"id": ["138", "139", "8", "140"],
+										"number": "5",
 										"offset": "1",
 										"pagi": "next-prev",
+										"dark": "true",
 										"excerpt": "true",
-										"excerpt_length": 20,
+										"excerpt_length": "22",
 										"post_meta": "true",
 										"read_more": "true",
+										"filters": "true",
 										"breaking_effect": "reveal",
-										"sub_style": "2c",
+										"sub_style": "1c",
 										"style": "large-first",
 										"title_length": "",
 										"media_overlay": "",
 										"read_more_text": ""
 									};
 									</script>
-									<div class="clearfix half-box-clearfix"></div>
+
 									<div id="tie-block_1837" class="mag-box miscellaneous-box first-post-gradient has-first-big-post media-overlay has-custom-color" data-current="1">
 										<div class="container-wrapper">
 											<div class="mag-box-title the-global-title">
@@ -366,70 +313,26 @@
 												
 											</div>
 											<div class="mag-box-container clearfix">
+
 												<ul class="posts-items posts-list-container">
-													<li class="post-item is-trending tie-video"> <a aria-label="Play This Game for Free on Steam This Weekend" href="2016/10/17/play-this-game-for-free-on-steam-this-weekend/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span> <div class="post-thumb-overlay-wrap"> <div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div> </div> <img width="780" height="470" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-post size-jannah-image-post lazy-img wp-post-image" alt="Photo of Play This Game for Free on Steam This Weekend" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/11-1-780x470.jpg" /></a>
+													
+													@foreach ($video as $vd)
+														@foreach ($master as $ct)
+														@endforeach
+													<li class="post-item is-trending tie-video"> <a aria-label="{{$vd->video_url}}" href="{{$vd->video_url}}" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span> <div class="post-thumb-overlay-wrap"> <div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div> </div> <img width="780" height="470" src="{{$vd->image}}" class="attachment-jannah-image-post size-jannah-image-post lazy-img wp-post-image" alt="Photo of Play This Game for Free on Steam This Weekend" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/11-1-780x470.jpg" /></a>
 														<div class="clearfix"></div>
 														<div class="post-overlay">
-															<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">Creative</a>
-																<h2 class="post-title"><a href="2016/10/17/play-this-game-for-free-on-steam-this-weekend/index.html">Play This Game for Free on Steam This Weekend</a></h2>
+															<div class="post-content"> <a class="post-cat tie-cat-75" href="#">Creative</a>
+																<h2 class="post-title"><a href="https://www.prashasanplusnews.com/<?php echo ($vdd ?? ''); ?>/<?php echo ($vd->subcat); ?>/<?php echo ($vd->url); ?>">{{$vd->title}}</a></h2>
 																<div class="thumb-meta">
-																	<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">Fouad Badawy</a></span></span>
-																		</span><span class="date meta-item tie-icon">Oct 17, 2016</span>
-																		<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 17,704 </span>
-																		</div>
+																	<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">{{$vd->post_by}}</a></span></span>
+																		</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($vd->date))}}</span>
 																	</div>
 																</div>
 															</div>
 														</div>
 													</li>
-													<li class="post-item is-trending tie-video">
-														<a aria-label="At Value-Focused Hotels, the Free Breakfast Gets Bigger" href="2016/10/16/at-value-focused-hotels-the-free-breakfast-gets-bigger/index.html" class="post-thumb">
-															<div class="post-thumb-overlay-wrap">
-																<div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div>
-															</div> <img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of At Value-Focused Hotels, the Free Breakfast Gets Bigger" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/garrett-parker-1-390x220.jpg" /></a>
-														<div class="clearfix"></div>
-														<div class="post-overlay">
-															<div class="post-content">
-																<div class="post-meta clearfix"><span class="trending-post tie-icon-bolt trending-sm meta-item" aria-hidden="true"></span><span class="date meta-item tie-icon">Oct 16, 2016</span>
-																	<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span></div>
-																</div>
-																<h2 class="post-title"><a href="2016/10/16/at-value-focused-hotels-the-free-breakfast-gets-bigger/index.html">At Value-Focused Hotels, the Free Breakfast Gets Bigger</a></h2>
-																<div class="post-meta"></div>
-															</div>
-														</div>
-													</li>
-													<li class="post-item tie-video">
-														<a aria-label="Failure is the condiment that gives success its flavor" href="2016/10/15/failure-is-the-condiment-that-gives-success-its-flavor/index.html" class="post-thumb">
-															<div class="post-thumb-overlay-wrap">
-																<div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div>
-															</div> <img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Failure is the condiment that gives success its flavor" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-3-390x220.jpg" /></a>
-														<div class="clearfix"></div>
-														<div class="post-overlay">
-															<div class="post-content">
-																<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 15, 2016</span>
-																	<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span></div>
-																</div>
-																<h2 class="post-title"><a href="2016/10/15/failure-is-the-condiment-that-gives-success-its-flavor/index.html">Failure is the condiment that gives success its flavor</a></h2>
-																<div class="post-meta"></div>
-															</div>
-														</div>
-													</li>
-													<li class="post-item tie-video">
-														<a aria-label="Les nouveaux maillots du Real Madrid pour la saison" href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html" class="post-thumb">
-															<div class="post-thumb-overlay-wrap">
-																<div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div>
-															</div> <img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Les nouveaux maillots du Real Madrid pour la saison" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/slide15-390x220.jpg" /></a>
-														<div class="clearfix"></div>
-														<div class="post-overlay">
-															<div class="post-content">
-																<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 6, 2016</span>
-																	<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span></div>
-																</div>
-																<h2 class="post-title"><a href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html">Les nouveaux maillots du Real Madrid pour la saison</a></h2>
-																<div class="post-meta"></div>
-															</div>
-														</div>
-													</li>
+													@endforeach
 												</ul>
 												<div class="clearfix"></div>
 											</div>
@@ -459,7 +362,7 @@
 									<div id="tie-s_1441" class="mag-box big-posts-box has-custom-color" data-current="1">
 										<div class="container-wrapper">
 											<div class="mag-box-title the-global-title">
-												<h3> What's new </h3> </div>
+												<h3> Life Style </h3> </div>
 											<div class="mag-box-container clearfix">
 												<ul class="posts-items posts-list-container">
 													<li class="post-item post-1887 post type-post status-publish format-standard has-post-thumbnail category-life-style category-technology tag-apple tag-dell tag-tech is-trending tie-standard">
@@ -689,67 +592,12 @@
 													<div class="tabs-widget">
 														<div class="tabs-wrapper">
 															<ul class="tabs">
-																<li><a href="#widget_tabs-11-recent">Recent</a></li>
-																<li><a href="#widget_tabs-11-popular">Popular</a></li>
-																<li><a href="#widget_tabs-11-comments">Comments</a></li>
+
+																<li><a href="#widget_tabs-11-recent">Recent News</a></li>
+
 															</ul>
+															
 															<div id="widget_tabs-11-recent" class="tab-content tab-content-recent">
-																<ul class="tab-content-elements">
-																	<li class="widget-single-post-item widget-post-list tie-standard">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="After all is said and done, more is done" href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of After all is said and done, more is done" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-1-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html">After all is said and done, more is done</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 27, 2018</span>
-																				<div class="post-rating image-stars">
-																					<div class="stars-rating-bg"></div>
-																					<div class="stars-rating-active" data-rate-val="91.833333333333%" data-lazy-percent="1">
-																						<div class="stars-rating-active-inner"> </div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list is-trending tie-video">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html">Success is not a good teacher failure makes you humble</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 28, 2016</span> </div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list is-trending tie-standard">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="Budget issues force the Tour to be cancelled" href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Budget issues force the Tour to be cancelled" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-2-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html">Budget issues force the Tour to be cancelled</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 25, 2016</span> </div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list tie-video">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-3-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html">Instagram’s big redesign goes live with black-and-white app</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 21, 2016</span> </div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list tie-video">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="The only thing that overcomes hard luck is hard work" href="2016/10/20/the-only-thing-that-overcomes-hard-luck-is-hard-work/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The only thing that overcomes hard luck is hard work" loading="lazy" data-src="wp-content/uploads/sites/8/2016/05/7040731-cam-newton-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2016/10/20/the-only-thing-that-overcomes-hard-luck-is-hard-work/index.html">The only thing that overcomes hard luck is hard work</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 20, 2016</span> </div>
-																		</div>
-																	</li>
-																</ul>
-															</div>
-															<div id="widget_tabs-11-popular" class="tab-content tab-content-popular">
 																<ul class="tab-content-elements">
 																	<li class="widget-single-post-item widget-post-list tie-video">
 																		<div class="post-widget-thumbnail">
@@ -805,50 +653,7 @@
 																	</li>
 																</ul>
 															</div>
-															<div id="widget_tabs-11-comments" class="tab-content tab-content-comments">
-																<ul class="tab-content-elements">
-																	<li>
-																		<div class="post-widget-thumbnail" style="width:70px">
-																			<a class="author-avatar" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html#comment-18586"> <img alt='Photo of Fouad Badawy' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAApJREFUCJljYAAAAAIAAfRxZKYAAAAASUVORK5CYII=" data-src="//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm" data-2x='//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm 2x' class='lazy-img avatar avatar-70 photo' height='70' width='70' loading='lazy' /> </a>
-																		</div>
-																		<div class="comment-body "> <a class="comment-author" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html#comment-18586"> Fouad Badawy </a>
-																			<p>focused and remember we design the best WordPress News and M...</p>
-																		</div>
-																	</li>
-																	<li>
-																		<div class="post-widget-thumbnail" style="width:70px">
-																			<a class="author-avatar" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html#comment-18573"> <img alt='Photo of Fouad Badawy' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAApJREFUCJljYAAAAAIAAfRxZKYAAAAASUVORK5CYII=" data-src="//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm" data-2x='//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm 2x' class='lazy-img avatar avatar-70 photo' height='70' width='70' loading='lazy' /> </a>
-																		</div>
-																		<div class="comment-body "> <a class="comment-author" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html#comment-18573"> Fouad Badawy </a>
-																			<p>Great...</p>
-																		</div>
-																	</li>
-																	<li>
-																		<div class="post-widget-thumbnail" style="width:70px">
-																			<a class="author-avatar" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html#comment-15735"> <img alt='Photo of Fouad Badawy' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAApJREFUCJljYAAAAAIAAfRxZKYAAAAASUVORK5CYII=" data-src="//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm" data-2x='//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm 2x' class='lazy-img avatar avatar-70 photo' height='70' width='70' loading='lazy' /> </a>
-																		</div>
-																		<div class="comment-body "> <a class="comment-author" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html#comment-15735"> Fouad Badawy </a>
-																			<p>Check the main demo here https://jannah.tielabs.com/demo...</p>
-																		</div>
-																	</li>
-																	<li>
-																		<div class="post-widget-thumbnail" style="width:70px">
-																			<a class="author-avatar" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html#comment-8507"> <img alt='Photo of Fouad Badawy' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAApJREFUCJljYAAAAAIAAfRxZKYAAAAASUVORK5CYII=" data-src="//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm" data-2x='//www.gravatar.com/avatar/2eb5e17a9fe92866be144b89a88dfac0?s=70&#038;r=g&#038;d=mm 2x' class='lazy-img avatar avatar-70 photo' height='70' width='70' loading='lazy' /> </a>
-																		</div>
-																		<div class="comment-body "> <a class="comment-author" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html#comment-8507"> Fouad Badawy </a>
-																			<p>Great Post, test Comment....</p>
-																		</div>
-																	</li>
-																	<li>
-																		<div class="post-widget-thumbnail" style="width:70px">
-																			<a class="author-avatar" href="product/black-pullover/index.html#comment-8479"> <img alt='Photo of Ashraf Reda' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAApJREFUCJljYAAAAAIAAfRxZKYAAAAASUVORK5CYII=" data-src="//www.gravatar.com/avatar/8bf9b3cdb1c2635772e6aeb5e6dfe903?s=70&#038;r=g&#038;d=mm" data-2x='//www.gravatar.com/avatar/8bf9b3cdb1c2635772e6aeb5e6dfe903?s=70&#038;r=g&#038;d=mm 2x' class='lazy-img avatar avatar-70 photo' height='70' width='70' loading='lazy' /> </a>
-																		</div>
-																		<div class="comment-body "> <a class="comment-author" href="product/black-pullover/index.html#comment-8479"> Ashraf Reda </a>
-																			<p>You have to try...</p>
-																		</div>
-																	</li>
-																</ul>
-															</div>
+															
 														</div>
 													</div>
 												</div>
@@ -856,7 +661,7 @@
 										</div>
 										<div id="posts-list-widget-31" class="container-wrapper widget posts-list">
 											<div class="widget-title the-global-title">
-												<div class="the-subtitle">Most Viewed<span class="widget-title-icon tie-icon"></span></div>
+												<div class="the-subtitle">Recent News<span class="widget-title-icon tie-icon"></span></div>
 											</div>
 											<div class="widget-posts-list-container posts-list-counter">
 												<ul class="posts-list-items widget-posts-wrapper">
