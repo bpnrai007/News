@@ -26,24 +26,39 @@ class HomeController extends Controller{
     function index(){
 
     	// echo URL::current();
+    	$pop_cat 	= DB::table('category')->where('status','=','active')->take(6)->get();
     	
 		$post 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
-		$news 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(4)->get();
+		$news 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
 		$sport 		= DB::table('post')->where('post_type','=','Sport')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		$po_sport 	= DB::table('post')->where('post_type','=','Sport')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
 		$vis 		= DB::table('post')->where('post_type','=','Opinion')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		$opinion 	= DB::table('post')->where('post_type','=','Opinion')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
 		$state 		= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		$po_state 	= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
+		$astro 		= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
 		$pol 		= DB::table('post')->where('post_type','=','Politics')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
-		$politics 	= DB::table('post')->where('post_type','=','Politics')->where('status','=','active')->orderBy('id','desc')->take(4)->get();
+		$politics 	= DB::table('post')->where('post_type','=','Politics')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
+    	$enter 		= DB::table('post')->where('post_type','=','Entertainment')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		$po_enter 	= DB::table('post')->where('post_type','=','Entertainment')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
 		$video 		= DB::table('post')->where('post_type','=','Video')->where('status','=','active')->orderBy('id','desc')->take(4)->get();
+		$lifestyle 	= DB::table('post')->where('post_type','=','Lifestyle')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
+
+		$recent		= DB::table('post')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
+
 		
-		return view('index')->with('post',$post)->with('news',$news)->with('sport',$sport)->with('vis',$vis)->with('state',$state)->with('pol',$pol)->with('politics',$politics)->with('video',$video);
+		return view('index')->with('post',$post)->with('news',$news)->with('sport',$sport)->with('po_sport',$po_sport)->with('vis',$vis)->with('opinion',$opinion)->with('state',$state)->with('po_state',$po_state)->with('astro',$astro)->with('pol',$pol)->with('politics',$politics)->with('enter',$enter)->with('po_enter',$po_enter)->with('video',$video)->with('lifestyle',$lifestyle)->with('recent',$recent)->with('pop_cat',$pop_cat);
 	}
 
 	function getPost($slug=""){
 		
 		$post 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
+		$news 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
+		
 		$state 		= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
-		return view('news', $post);
+		$lifestyle 	= DB::table('post')->where('post_type','=','Lifestyle')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
+		$recent		= DB::table('post')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
+		return view('news', $post)->with('lifestyle',$lifestyle)->with('recent',$recent);
 	}
 
 

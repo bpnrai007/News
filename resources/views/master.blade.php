@@ -16,9 +16,9 @@
 	<link rel='dns-prefetch' href="http://s.gravatar.com/" />
 	<link rel='dns-prefetch' href="http://www.google-analytics.com/" />
 	<!-- Favicon -->
-	<link rel='preload' as='image' href="wp-content/uploads/sites/8/2020/08/logo.png" type='image/png'>
+	<link rel='preload' as='image' href="{{'/'}}wp-content/uploads/sites/8/2020/08/logo.png" type='image/png'>
 	<!-- <link rel='preload' as='image' href="wp-content/uploads/sites/8/2020/08/logo%402x.png" type='image/png'> -->
-	<link rel='preload' as='font' href="wp-content/themes/jannah/assets/fonts/tielabs-fonticon/tielabs-fonticon.woff" type='font/woff' crossorigin='anonymous' />
+	<link rel='preload' as='font' href="{{'/'}}wp-content/themes/jannah/assets/fonts/tielabs-fonticon/tielabs-fonticon.woff" type='font/woff' crossorigin='anonymous' />
 	<!-- <link rel='preload' as='script' href="../../ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"> -->
 	<style id='tie-critical-css' type='text/css'>
 	html {
@@ -3358,10 +3358,10 @@
 		}
 		</style>
 	</noscript>
-	<link rel="icon" href="wp-content/uploads/sites/8/2017/05/logo-lite.png" sizes="32x32" />
-	<link rel="icon" href="wp-content/uploads/sites/8/2017/05/logo-lite.png" sizes="192x192" />
-	<link rel="apple-touch-icon" href="wp-content/uploads/sites/8/2017/05/logo-lite.png" />
-	<meta name="msapplication-TileImage" content="https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2017/05/cropped-jannah-favicon-300x300.png" /> </head>
+	<link rel="icon" href="{{'/'}}wp-content/uploads/sites/8/2017/05/logo-lite.png" sizes="32x32" />
+	<link rel="icon" href="{{'/'}}wp-content/uploads/sites/8/2017/05/logo-lite.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="{{'/'}}wp-content/uploads/sites/8/2017/05/logo-lite.png" />
+	<meta name="msapplication-TileImage" content="{{'/'}}wp-content/uploads/sites/8/2017/05/cropped-jannah-favicon-300x300.png" /> </head>
 
 <body id="tie-body" class="home-page bp-nouveau home page-template-default page page-id-131 theme-jannah tie-no-js woocommerce-no-js wrapper-has-shadow block-head-1 magazine2 is-lazyload is-thumb-overlay-disabled is-desktop is-header-layout-3 has-header-ad has-builder hide_breaking_news no-js">
 	<div class="background-overlay">
@@ -3415,9 +3415,9 @@
 									<div id="logo" class="image-logo">
 										<a title="PrashasanPlusNews" href="#">
 											<picture id="tie-logo-default" class="tie-logo-default tie-logo-picture">
-												<source class="tie-logo-source-default tie-logo-source" srcset="wp-content/uploads/sites/8/2020/08/logo.png 2x, wp-content/uploads/sites/8/2020/08/logo.png 1x"> <img class="tie-logo-img-default tie-logo-img" src="wp-content/uploads/sites/8/2020/08/logo.png" alt="Jannah" width="300" height="49" style="max-height:49px !important; width: auto;" /> </picture>
+												<source class="tie-logo-source-default tie-logo-source" srcset="{{'/'}}wp-content/uploads/sites/8/2020/08/logo.png 2x, {{'/'}}wp-content/uploads/sites/8/2020/08/logo.png 1x"> <img class="tie-logo-img-default tie-logo-img" src="{{'/'}}wp-content/uploads/sites/8/2020/08/logo.png" alt="Jannah" width="300" height="49" style="max-height:49px !important; width: auto;" /> </picture>
 											<picture id="tie-logo-inverted" class="tie-logo-inverted tie-logo-picture">
-												<source class="tie-logo-source-inverted tie-logo-source" id="tie-logo-inverted-source" srcset="wp-content/uploads/sites/8/2016/10/logo-lite@2x.png 2x, wp-content/uploads/sites/8/2016/10/logo-lite.png 1x"> <img class="tie-logo-img-inverted tie-logo-img" id="tie-logo-inverted-img" src="wp-content/uploads/sites/8/2016/10/logo-lite.png" alt="PrashasanPlusNews" width="300" height="49" style="max-height:49px !important; width: auto;" /> </picture>
+												<source class="tie-logo-source-inverted tie-logo-source" id="tie-logo-inverted-source" srcset="{{'/'}}wp-content/uploads/sites/8/2016/10/logo-lite.png 2x, {{'/'}}wp-content/uploads/sites/8/2016/10/logo-lite.png 1x"> <img class="tie-logo-img-inverted tie-logo-img" id="tie-logo-inverted-img" src="{{'/'}}wp-content/uploads/sites/8/2016/10/logo-lite.png" alt="PrashasanPlusNews" width="300" height="49" style="max-height:49px !important; width: auto;" /> </picture>
 											<h1 class="h1-off">Prashasan Plus News</h1> </a>
 									</div>
 									<div id="mobile-header-components-area_2" class="mobile-header-components">
@@ -3431,7 +3431,7 @@
 							</div>
 							<div class="tie-col-md-8 stream-item stream-item-top-wrapper">
 								<div class="stream-item-top">
-									<a href="https://knovatik.com/" title="Buy Jannah Theme" target="_blank" rel="nofollow noopener"> <img src="wp-content/uploads/sites/8/2016/10/1.jpg" alt="Buy Jannah Theme" width="728" height="90" /> </a>
+									<a href="https://knovatik.com/" title="Buy Jannah Theme" target="_blank" rel="nofollow noopener"> <img src="{{'/'}}wp-content/uploads/sites/8/2016/10/1.jpg" alt="Buy Jannah Theme" width="728" height="90" /> </a>
 								</div>
 							</div>
 						</div>
@@ -3487,6 +3487,21 @@
 						</nav>
 					</div>
 				</header>
+				<script type="text/javascript">
+				try {
+					if("undefined" != typeof localStorage) {
+						var header, mnIsDark = !1,
+							tnIsDark = !1;
+						(header = document.getElementById("theme-header")) && ((header = header.classList).contains("main-nav-default-dark") && (mnIsDark = !0), header.contains("top-nav-default-dark") && (tnIsDark = !0), "dark" == tieSkin ? (header.add("main-nav-dark", "top-nav-dark"), header.remove("main-nav-light", "top-nav-light")) : "light" == tieSkin && (mnIsDark || (header.remove("main-nav-dark"), header.add("main-nav-light")), tnIsDark || (header.remove("top-nav-dark"), header.add("top-nav-light"))))
+					}
+				} catch(a) {
+					console.log(a)
+				}
+				</script>
+				<link rel='stylesheet' id='tie-css-styles-css' href="{{'/'}}wp-content/themes/jannah/assets/css/style.min.css" type='text/css' media='all' />
+				<script>
+				console.log('Style tie-css-styles')
+				</script>
 				<!-- End Header -->
 				@yield('content')
 				@yield('footer')
@@ -3496,7 +3511,8 @@
 						<div class="container">
 							<div class="footer-widget-area ">
 								<div class="tie-row">
-									<div class="tie-col-md-3 normal-side">
+
+									<div class="tie-col-md-4 normal-side">
 										<div id="posts-list-widget-9" class="container-wrapper widget posts-list">
 											<div class="widget-title the-global-title">
 												<div class="the-subtitle">Most Viewed Posts<span class="widget-title-icon tie-icon"></span></div>
@@ -3520,81 +3536,57 @@
 											<div class="clearfix"></div>
 										</div>
 									</div>
-									<div class="tie-col-md-3 normal-side">
-										<div id="posts-list-widget-8" class="container-wrapper widget posts-list">
-											<div class="widget-title the-global-title">
-												<div class="the-subtitle">Last Modified Posts<span class="widget-title-icon tie-icon"></span></div>
-											</div>
-											<div class="widget-posts-list-container posts-pictures-widget">
-												<div class="tie-row widget-posts-wrapper">
-													<div class="widget-single-post-item tie-col-xs-4 tie-video">
-														<a aria-label="Failure is the condiment that gives success its flavor" href="2016/10/15/failure-is-the-condiment-that-gives-success-its-flavor/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Failure is the condiment that gives success its flavor" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-3-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 tie-video">
-														<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-3-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 is-trending tie-video">
-														<a aria-label="Chinese Tourists Pump Cash Into a Hot Destination China" href="2016/10/02/chinese-tourists-pump-cash-into-a-hot-destination-china/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Chinese Tourists Pump Cash Into a Hot Destination China" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-new-2-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 tie-standard">
-														<a aria-label="Saturday&#8217;s non-league football" href="2016/10/03/saturdays-non-league-football/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Saturday&#8217;s non-league football" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-1-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 is-trending tie-standard">
-														<a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Not who has much is rich, but who gives much" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/post-1-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 is-trending tie-video">
-														<a aria-label="Play This Game for Free on Steam This Weekend" href="2016/10/17/play-this-game-for-free-on-steam-this-weekend/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Play This Game for Free on Steam This Weekend" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/11-1-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 tie-slider">
-														<a aria-label="PS4/Xbox One Digital Preorder Bonuses Revealed" href="2014/10/03/ps4xbox-one-digital-preorder-bonuses-revealed/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of PS4/Xbox One Digital Preorder Bonuses Revealed" loading="lazy" data-src="wp-content/uploads/sites/8/2016/05/11-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 tie-standard">
-														<a aria-label="The Renault Trezor Concept is a Formula E car for the road" href="2016/10/10/the-renault-trezor-concept-is-a-formula-e-car-for-the-road/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of The Renault Trezor Concept is a Formula E car for the road" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/pexels-photo-1-390x220.jpg" /></a>
-													</div>
-													<div class="widget-single-post-item tie-col-xs-4 tie-standard">
-														<a aria-label="New Heroes of the Storm Characters Bring Portals" href="2016/10/02/new-heroes-of-the-storm-characters-bring-portals/index.html" class="post-thumb"><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of New Heroes of the Storm Characters Bring Portals" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/slide-31-390x220.jpg" /></a>
-													</div>
-												</div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-									<div class="tie-col-md-3 normal-side">
+									
+									<div class="tie-col-md-4 normal-side">
 										<div id="tag_cloud-6" class="container-wrapper widget widget_tag_cloud">
 											<div class="widget-title the-global-title">
-												<div class="the-subtitle">Tags<span class="widget-title-icon tie-icon"></span></div>
+												<div class="the-subtitle">POPULAR CATEGORIES<span class="widget-title-icon tie-icon"></span></div>
 											</div>
-											<div class="tagcloud"><a href="tag/apple/index.html" class="tag-cloud-link tag-link-17 tag-link-position-1" style="font-size: 11.230769230769pt;" aria-label="apple (2 items)">apple</a> <a href="tag/dell/index.html" class="tag-cloud-link tag-link-146 tag-link-position-2" style="font-size: 8pt;" aria-label="Dell (1 item)">Dell</a> <a href="tag/egypt/index.html" class="tag-cloud-link tag-link-145 tag-link-position-3" style="font-size: 8pt;" aria-label="Egypt (1 item)">Egypt</a> <a href="tag/fashion/index.html" class="tag-cloud-link tag-link-147 tag-link-position-4" style="font-size: 8pt;" aria-label="Fashion (1 item)">Fashion</a> <a href="tag/featured/index.html" class="tag-cloud-link tag-link-162 tag-link-position-5" style="font-size: 16.615384615385pt;" aria-label="featured (5 items)">featured</a> <a href="tag/food/index.html" class="tag-cloud-link tag-link-154 tag-link-position-6" style="font-size: 21.282051282051pt;" aria-label="food (10 items)">food</a> <a href="tag/football/index.html" class="tag-cloud-link tag-link-200 tag-link-position-7" style="font-size: 11.230769230769pt;" aria-label="football (2 items)">football</a> <a href="tag/google/index.html" class="tag-cloud-link tag-link-22 tag-link-position-8" style="font-size: 8pt;" aria-label="google (1 item)">google</a> <a href="tag/life-style/index.html" class="tag-cloud-link tag-link-155 tag-link-position-9" style="font-size: 19.666666666667pt;" aria-label="life style (8 items)">life style</a> <a href="tag/olympics/index.html" class="tag-cloud-link tag-link-141 tag-link-position-10" style="font-size: 11.230769230769pt;" aria-label="olympics (2 items)">olympics</a> <a href="tag/philps/index.html" class="tag-cloud-link tag-link-142 tag-link-position-11" style="font-size: 8pt;" aria-label="philps (1 item)">philps</a> <a href="tag/race/index.html" class="tag-cloud-link tag-link-91 tag-link-position-12" style="font-size: 8pt;" aria-label="Race (1 item)">Race</a> <a href="tag/rio-2016/index.html" class="tag-cloud-link tag-link-143 tag-link-position-13" style="font-size: 11.230769230769pt;" aria-label="rio 2016 (2 items)">rio 2016</a> <a href="tag/tech/index.html" class="tag-cloud-link tag-link-94 tag-link-position-14" style="font-size: 22pt;" aria-label="Tech (11 items)">Tech</a> <a href="tag/timeline/index.html" class="tag-cloud-link tag-link-163 tag-link-position-15" style="font-size: 22pt;" aria-label="timeline (11 items)">timeline</a> <a href="tag/twitter-video/index.html" class="tag-cloud-link tag-link-199 tag-link-position-16" style="font-size: 11.230769230769pt;" aria-label="Twitter Video (2 items)">Twitter Video</a> <a href="tag/video/index.html" class="tag-cloud-link tag-link-62 tag-link-position-17" style="font-size: 20.564102564103pt;" aria-label="Video (9 items)">Video</a> <a href="tag/western-foods/index.html" class="tag-cloud-link tag-link-144 tag-link-position-18" style="font-size: 8pt;" aria-label="Western Foods (1 item)">Western Foods</a></div>
+											@foreach ($master as $ct)
+												<div class="tagcloud">
+													<a href="{{'/'}}" class="tag-cloud-link tag-link-17 tag-link-position-1" style="font-size: 11.230769230769pt;" aria-label="apple (2 items)">{{$ct['name']}}</a>
+												</div>
+											@endforeach
 											<div class="clearfix"></div>
 										</div>
 									</div>
-									<div class="tie-col-md-3 normal-side">
+
+									<div class="tie-col-md-4 normal-side">
 										<div id="latest_tweets_widget-4" class="container-wrapper widget latest-tweets-widget">
 											<div class="widget-title the-global-title">
-												<div class="the-subtitle"><a href="http://twitter.com/tielabs" rel="nofollow noopener">Follow us</a><span class="widget-title-icon tie-icon"></span></div>
+												<div class="the-subtitle"><a href="http://twitter.com/tielabs" rel="nofollow noopener">CONTACT US</a><span class="widget-title-icon tie-icon"></span></div>
 											</div>
 											<ul>
 												<li class="slide">
-													<div class="twitter-icon-wrap"> <span class="tie-icon-twitter" aria-hidden="true"></span> </div>
-													<div class="tweetaya-body">
-														<p>Coming Soon, Stay Tuned <a href="https://twitter.com/#search?q=jannah" target="_blank" rel="nofollow noopener">#jannah</a> <a href="https://twitter.com/#search?q=big_update" target="_blank" rel="nofollow noopener">#big_update</a> <a href="https://twitter.com/#search?q=jannah5" target="_blank" rel="nofollow noopener">#jannah5</a> <a href="https://twitter.com/#search?q=wordpress" target="_blank" rel="nofollow noopener">#wordpress</a> <a href="http://t.co/IQsH1hLnMr" target="_blank" rel="nofollow noopener">https://t.co/IQsH1hLnMr</a></p> <span class="tweetaya-meta"><a href="https://twitter.com/tielabs/status/1294166595321962497" title="2020/08/14 06:58:55" target="_blank" rel="nofollow noopener">2020/08/14</a></span> </div>
+													<div class="map-icon-wrap"> <span class="tie-icon-map" aria-hidden="true"></span> </div>
+													<div class="map-body">
+														<p>Address: 1/336 Vardaan Khand, Gomtinagar Vistaar, Lucknow-226010</p>
+													</div>
 												</li>
 												<li class="slide">
-													<div class="twitter-icon-wrap"> <span class="tie-icon-twitter" aria-hidden="true"></span> </div>
-													<div class="tweetaya-body">
-														<p>Our new plugin WPCOVID-19 helps WordPress sites’ owners to display Coronavirus real-time data easily on their sites… <a href="http://t.co/953KekMqq0" target="_blank" rel="nofollow noopener">https://t.co/953KekMqq0</a></p> <span class="tweetaya-meta"><a href="https://twitter.com/tielabs/status/1251797716822360066" title="2020/04/19 09:00:07" target="_blank" rel="nofollow noopener">2020/04/19</a></span> </div>
+													<div class="phone-icon-wrap"> <span class="tie-icon-phone" aria-hidden="true"></span> </div>
+													<div class="phone-body">
+														<p>Phone: 0522-7118091</p>
+													</div>
 												</li>
-											</ul> <a href="http://twitter.com/tielabs" target="_blank" rel="nofollow noopener" class="button dark-btn fullwidth">Follow us on Twitter</a>
+												<li class="slide">
+													<div class="envelope-icon-wrap"> <span class="tie-icon-envelope" aria-hidden="true"></span> </div>
+													<div class="envelope-body">
+														<p>Email: info@prashasanplusnews.com</p>
+													</div>
+												</li>
+											</ul>
 											<div class="clearfix"></div>
 										</div>
 									</div>
+
 								</div>
 							</div>
 							<div class="footer-widget-area ">
 								<div class="tie-row">
 									<div class="tie-col-sm-4 normal-side">
 										<div id="author-bio-widget-4" class="container-wrapper widget aboutme-widget">
-											<div class="about-author about-content-wrapper"><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAKCAYAAADVTVykAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpi/P//P8NAAiaGAQajDhh1wKgDRh0AEGAAQTcDEcKDrpMAAAAASUVORK5CYII=" data-src="/jannah/wp-content/uploads/sites/8/2016/10/logo-lite@2x.png" style="margin-top: 20px; margin-bottom: 0px;width: 320px; " class="about-author-img lazy-img" width="280" height="47">
+											<div class="about-author about-content-wrapper"><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAKCAYAAADVTVykAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpi/P//P8NAAiaGAQajDhh1wKgDRh0AEGAAQTcDEcKDrpMAAAAASUVORK5CYII=" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/logo-lite.png" style="margin-top: 20px; margin-bottom: 0px;width: 320px; " class="about-author-img lazy-img" width="280" height="47">
 												<div class="aboutme-widget-content"> </div>
 												<div class="clearfix"></div>
 											</div>
@@ -3604,7 +3596,7 @@
 									<div class="tie-col-sm-4 normal-side">
 										<div id="author-bio-widget-6" class="container-wrapper widget aboutme-widget">
 											<div class="about-author about-content-wrapper">
-												<div class="aboutme-widget-content">Jannah is a Clean Responsive WordPress Newspaper, Magazine, News and Blog theme. Packed with options that allow you to completely customize your website to your needs. </div>
+												<div class="aboutme-widget-content">Prashasanplusnews is an independent News Network founded by WE THE PEOPLE MEDIA PRIVATE LIMITED with a mission to bring forth the truth and expose the rising trend of Post Truth, motivated false narratives and Fake news. </div>
 												<div class="clearfix"></div>
 											</div>
 											<div class="clearfix"></div>
@@ -3633,7 +3625,7 @@
 							<div class="tie-row">
 								<div class="tie-col-md-12">
 									<div class="copyright-text copyright-text-first">&copy; Copyright 2020, All Rights Reserved</div>
-									<div class="footer-menu">
+									<!-- <div class="footer-menu">
 										<ul id="menu-bottom-menu" class="menu">
 											<li id="menu-item-2609" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-131 current_page_item menu-item-2609 tie-current-menu"><a href="index.html" aria-current="page">Home</a></li>
 											<li id="menu-item-2613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2613"><a href="activity/index.html">Activity</a></li>
@@ -3641,14 +3633,14 @@
 											<li id="menu-item-2611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2611"><a href="members/index.html">Members</a></li>
 											<li id="menu-item-2612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2612"><a href="shop/index.html">Shop</a></li>
 										</ul>
-									</div>
+									</div> -->
 									<ul class="social-icons">
 										<li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.facebook.com/TieLabs/"><span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span></a></li>
 										<li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="http://twitter.com/tielabs"><span class="tie-social-icon tie-icon-twitter"></span><span class="screen-reader-text">Twitter</span></a></li>
-										<li class="social-icons-item"><a class="social-link dribbble-social-icon" rel="external noopener nofollow" target="_blank" href="http://dribbble.com/mo3aser"><span class="tie-social-icon tie-icon-dribbble"></span><span class="screen-reader-text">Dribbble</span></a></li>
-										<li class="social-icons-item"><a class="social-link soundcloud-social-icon" rel="external noopener nofollow" target="_blank" href="http://soundcloud.com/"><span class="tie-social-icon tie-icon-soundcloud"></span><span class="screen-reader-text">SoundCloud</span></a></li>
+										<!-- <li class="social-icons-item"><a class="social-link dribbble-social-icon" rel="external noopener nofollow" target="_blank" href="http://dribbble.com/mo3aser"><span class="tie-social-icon tie-icon-dribbble"></span><span class="screen-reader-text">Dribbble</span></a></li>
+										<li class="social-icons-item"><a class="social-link soundcloud-social-icon" rel="external noopener nofollow" target="_blank" href="http://soundcloud.com/"><span class="tie-social-icon tie-icon-soundcloud"></span><span class="screen-reader-text">SoundCloud</span></a></li> -->
 										<li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.instagram.com/tielabs/"><span class="tie-social-icon tie-icon-instagram"></span><span class="screen-reader-text">Instagram</span></a></li>
-										<li class="social-icons-item"><a class="social-link tiktok-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.tiktok.com/en/"><span class="tie-social-icon tie-icon-tiktok"></span><span class="screen-reader-text">TikTok</span></a></li>
+										<!-- <li class="social-icons-item"><a class="social-link tiktok-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.tiktok.com/en/"><span class="tie-social-icon tie-icon-tiktok"></span><span class="screen-reader-text">TikTok</span></a></li> -->
 									</ul>
 								</div>
 							</div>
@@ -3666,10 +3658,10 @@
 							<ul>
 								<li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.facebook.com/TieLabs/"><span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span></a></li>
 								<li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="http://twitter.com/tielabs"><span class="tie-social-icon tie-icon-twitter"></span><span class="screen-reader-text">Twitter</span></a></li>
-								<li class="social-icons-item"><a class="social-link dribbble-social-icon" rel="external noopener nofollow" target="_blank" href="http://dribbble.com/mo3aser"><span class="tie-social-icon tie-icon-dribbble"></span><span class="screen-reader-text">Dribbble</span></a></li>
-								<li class="social-icons-item"><a class="social-link soundcloud-social-icon" rel="external noopener nofollow" target="_blank" href="http://soundcloud.com/"><span class="tie-social-icon tie-icon-soundcloud"></span><span class="screen-reader-text">SoundCloud</span></a></li>
+								<!-- <li class="social-icons-item"><a class="social-link dribbble-social-icon" rel="external noopener nofollow" target="_blank" href="http://dribbble.com/mo3aser"><span class="tie-social-icon tie-icon-dribbble"></span><span class="screen-reader-text">Dribbble</span></a></li>
+								<li class="social-icons-item"><a class="social-link soundcloud-social-icon" rel="external noopener nofollow" target="_blank" href="http://soundcloud.com/"><span class="tie-social-icon tie-icon-soundcloud"></span><span class="screen-reader-text">SoundCloud</span></a></li> -->
 								<li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.instagram.com/tielabs/"><span class="tie-social-icon tie-icon-instagram"></span><span class="screen-reader-text">Instagram</span></a></li>
-								<li class="social-icons-item"><a class="social-link tiktok-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.tiktok.com/en/"><span class="tie-social-icon tie-icon-tiktok"></span><span class="screen-reader-text">TikTok</span></a></li>
+								<!-- <li class="social-icons-item"><a class="social-link tiktok-social-icon" rel="external noopener nofollow" target="_blank" href="http://www.tiktok.com/en/"><span class="tie-social-icon tie-icon-tiktok"></span><span class="screen-reader-text">TikTok</span></a></li> -->
 							</ul>
 						</div>
 						<div id="mobile-search">
@@ -3688,7 +3680,7 @@
 								<ul class="posts-list-items widget-posts-wrapper">
 									<li class="widget-single-post-item widget-post-list tie-standard">
 										<div class="post-widget-thumbnail">
-											<a aria-label="After all is said and done, more is done" href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of After all is said and done, more is done" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-1-220x150.jpg" /></a>
+											<a aria-label="After all is said and done, more is done" href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of After all is said and done, more is done" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/demo-image-1-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html">After all is said and done, more is done</a></h3>
@@ -3704,7 +3696,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list is-trending tie-video">
 										<div class="post-widget-thumbnail">
-											<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
+											<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html">Success is not a good teacher failure makes you humble</a></h3>
@@ -3713,7 +3705,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list is-trending tie-standard">
 										<div class="post-widget-thumbnail">
-											<a aria-label="Budget issues force the Tour to be cancelled" href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Budget issues force the Tour to be cancelled" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-2-220x150.jpg" /></a>
+											<a aria-label="Budget issues force the Tour to be cancelled" href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Budget issues force the Tour to be cancelled" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/demo-image-2-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/25/budget-issues-force-2017-tour-to-be-cancelled/index.html">Budget issues force the Tour to be cancelled</a></h3>
@@ -3722,7 +3714,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list tie-video">
 										<div class="post-widget-thumbnail">
-											<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-3-220x150.jpg" /></a>
+											<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/new-demo-3-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html">Instagram’s big redesign goes live with black-and-white app</a></h3>
@@ -3731,7 +3723,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list tie-video">
 										<div class="post-widget-thumbnail">
-											<a aria-label="The only thing that overcomes hard luck is hard work" href="2016/10/20/the-only-thing-that-overcomes-hard-luck-is-hard-work/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The only thing that overcomes hard luck is hard work" loading="lazy" data-src="wp-content/uploads/sites/8/2016/05/7040731-cam-newton-220x150.jpg" /></a>
+											<a aria-label="The only thing that overcomes hard luck is hard work" href="2016/10/20/the-only-thing-that-overcomes-hard-luck-is-hard-work/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The only thing that overcomes hard luck is hard work" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/05/7040731-cam-newton-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/20/the-only-thing-that-overcomes-hard-luck-is-hard-work/index.html">The only thing that overcomes hard luck is hard work</a></h3>
@@ -3750,7 +3742,7 @@
 								<ul class="posts-list-items widget-posts-wrapper">
 									<li class="widget-single-post-item widget-post-list is-trending tie-video">
 										<div class="post-widget-thumbnail">
-											<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
+											<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html">Success is not a good teacher failure makes you humble</a></h3>
@@ -3759,7 +3751,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list tie-standard">
 										<div class="post-widget-thumbnail">
-											<a aria-label="After all is said and done, more is done" href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of After all is said and done, more is done" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-1-220x150.jpg" /></a>
+											<a aria-label="After all is said and done, more is done" href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of After all is said and done, more is done" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/demo-image-1-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html">After all is said and done, more is done</a></h3>
@@ -3775,7 +3767,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list is-trending tie-standard">
 										<div class="post-widget-thumbnail">
-											<a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Not who has much is rich, but who gives much" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/post-1-220x150.jpg" /></a>
+											<a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Not who has much is rich, but who gives much" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/post-1-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">Not who has much is rich, but who gives much</a></h3>
@@ -3784,7 +3776,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list tie-standard">
 										<div class="post-widget-thumbnail">
-											<a aria-label="The Renault Trezor Concept is a Formula E car for the road" href="2016/10/10/the-renault-trezor-concept-is-a-formula-e-car-for-the-road/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Renault Trezor Concept is a Formula E car for the road" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/pexels-photo-1-220x150.jpg" /></a>
+											<a aria-label="The Renault Trezor Concept is a Formula E car for the road" href="2016/10/10/the-renault-trezor-concept-is-a-formula-e-car-for-the-road/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Renault Trezor Concept is a Formula E car for the road" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/pexels-photo-1-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/10/the-renault-trezor-concept-is-a-formula-e-car-for-the-road/index.html">The Renault Trezor Concept is a Formula E car for the road</a></h3>
@@ -3800,7 +3792,7 @@
 									</li>
 									<li class="widget-single-post-item widget-post-list tie-video">
 										<div class="post-widget-thumbnail">
-											<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-3-220x150.jpg" /></a>
+											<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="{{'/'}}wp-content/uploads/sites/8/2016/10/new-demo-3-220x150.jpg" /></a>
 										</div>
 										<div class="post-widget-body ">
 											<h3 class="post-title"><a href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html">Instagram’s big redesign goes live with black-and-white app</a></h3>
@@ -3928,7 +3920,7 @@
 	</div>
 	<link rel="preload" href="{{'/'}}wp-content/plugins/jannah-demos/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 	<noscript>
-		<link rel="stylesheet" href="wp-content/plugins/jannah-demos/assets/css/style.css">
+		<link rel="stylesheet" href="{{'/'}}wp-content/plugins/jannah-demos/assets/css/style.css">
 	</noscript>
 	<script type="text/javascript">
 	if('loading' in HTMLImageElement.prototype) {
@@ -3938,21 +3930,21 @@
 		});
 	}
 	</script>
-	<link rel='preload' href="wp-content/themes/jannah/assets/css/helpers.min.css" as='style' onload='this.onload=null;this.rel="stylesheet"' />
+	<link rel='preload' href="{{'/'}}wp-content/themes/jannah/assets/css/helpers.min.css" as='style' onload='this.onload=null;this.rel="stylesheet"' />
 	<noscript>
-		<link rel='stylesheet' id='tie-css-helpers-css' href="wp-content/themes/jannah/assets/css/helpers.min.css" type='text/css' media='all' />
+		<link rel='stylesheet' id='tie-css-helpers-css' href="{{'/'}}wp-content/themes/jannah/assets/css/helpers.min.css" type='text/css' media='all' />
 	</noscript>
 	<script>
 	console.log('Style tie-css-helpers')
 	</script>
-	<div class="demos-panel-btns" style="display: none;">
+	<!-- <div class="demos-panel-btns" style="display: none;">
 		<a href="#" id="demos-aside-open" class="panel-btn button"> <span>25+</span>
 			<p>Demos</p>
 		</a>
 		<a target="_blank" href="http://tielabs.com/buy/jannah?utm_source=demos&amp;utm_campaign=jannah&amp;utm_content=demo" rel="nofollow noopener" id="demos-buynow-btn" class="panel-btn"> <span class="fa fa-shopping-basket"></span>
 			<p>Buy Now!</p>
 		</a>
-	</div>
+	</div> -->
 	<div id="tie-popup-demos" style="display: none;">
 		<div id="panel-bottom-gradient"></div>
 		<a href="#" class="panel-btn-close"> <span class="tie-icon-cross" aria-hidden="true"></span> <span class="screen-reader-text">Close</span> </a>
@@ -4065,7 +4057,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="tie-popup-login" class="tie-popup" style="display: none;">
+	<!-- <div id="tie-popup-login" class="tie-popup" style="display: none;">
 		<a href="#" class="tie-btn-close remove big-btn light-btn"> <span class="screen-reader-text">Close</span> </a>
 		<div class="tie-popup-container">
 			<div class="container-wrapper">
@@ -4089,14 +4081,14 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<script type="text/javascript">
 	var c = document.body.className;
 	c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 	document.body.className = c;
 	</script>
-	<script type='text/javascript' src='wp-content/plugins/jquery-updater/js/jquery-3.5.1.min.js' id='jquery-core-js'></script>
-	<script type='text/javascript' defer="defer" src='wp-content/plugins/jannah-demos/assets/js/scripts.js' id='tie-jannah-demos-js-js'></script>
+	<script type='text/javascript' src="{{'/'}}wp-content/plugins/jquery-updater/js/jquery-3.5.1.min.js" id='jquery-core-js'></script>
+	<script type='text/javascript' defer="defer" src="{{'/'}}wp-content/plugins/jannah-demos/assets/js/scripts.js" id='tie-jannah-demos-js-js'></script>
 	<script type='text/javascript' id='tie-scripts-js-extra'>
 	/* <![CDATA[ */
 	var tie = {
@@ -4138,10 +4130,10 @@
 	};
 	/* ]]> */
 	</script>
-	<script type='text/javascript' defer="defer" src='wp-content/themes/jannah/assets/js/scripts.min.js' id='tie-scripts-js'></script>
-	<script type='text/javascript' defer="defer" src='wp-content/themes/jannah/assets/js/desktop.min.js' id='tie-js-desktop-js'></script>
-	<script type='text/javascript' defer="defer" src='wp-content/themes/jannah/assets/js/live-search.js' id='tie-js-livesearch-js'></script>
-	<script type='text/javascript' defer="defer" src='wp-content/themes/jannah/assets/js/br-news.js' id='tie-js-breaking-js'></script>
+	<script type='text/javascript' defer="defer" src="{{'/'}}wp-content/themes/jannah/assets/js/scripts.min.js" id='tie-scripts-js'></script>
+	<script type='text/javascript' defer="defer" src="{{'/'}}wp-content/themes/jannah/assets/js/desktop.min.js" id='tie-js-desktop-js'></script>
+	<script type='text/javascript' defer="defer" src="{{'/'}}wp-content/themes/jannah/assets/js/live-search.js" id='tie-js-livesearch-js'></script>
+	<script type='text/javascript' defer="defer" src="{{'/'}}wp-content/themes/jannah/assets/js/br-news.js" id='tie-js-breaking-js'></script>
 	<script>
 	var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
 	if(typeof connection != 'undefined' && (/\slow-2g|2g/.test(connection.effectiveType))) {

@@ -1,20 +1,6 @@
 				@extends('master')
 				@section('content')
-				<script type="text/javascript">
-				try {
-					if("undefined" != typeof localStorage) {
-						var header, mnIsDark = !1,
-							tnIsDark = !1;
-						(header = document.getElementById("theme-header")) && ((header = header.classList).contains("main-nav-default-dark") && (mnIsDark = !0), header.contains("top-nav-default-dark") && (tnIsDark = !0), "dark" == tieSkin ? (header.add("main-nav-dark", "top-nav-dark"), header.remove("main-nav-light", "top-nav-light")) : "light" == tieSkin && (mnIsDark || (header.remove("main-nav-dark"), header.add("main-nav-light")), tnIsDark || (header.remove("top-nav-dark"), header.add("top-nav-light"))))
-					}
-				} catch(a) {
-					console.log(a)
-				}
-				</script>
-				<link rel='stylesheet' id='tie-css-styles-css' href="wp-content/themes/jannah/assets/css/style.min.css" type='text/css' media='all' />
-				<script>
-				console.log('Style tie-css-styles')
-				</script>
+				
 				<div id="tiepost-131-section-3286" class="section-wrapper container-full without-background">
 					<div class="section-item is-first-section full-width">
 						<div class="container">
@@ -98,8 +84,7 @@
 												</div>
 											</div>
 										</div>
-
-
+										
 									</section>
 								</div>
 							</div>
@@ -112,34 +97,47 @@
 							<div class="tie-row main-content-row">
 								<div class="main-content tie-col-md-8 tie-col-xs-12" role="main">
 									<div id="tie-block_3151" class="mag-box big-post-left-box big-thumb-left-box first-post-gradient has-custom-color" data-current="1">
+
 										<div class="container-wrapper">
 											<div class="mag-box-title the-global-title">
-												<h3> Trending News </h3>
-												<div class="tie-alignright">
-													<div class="mag-box-options">
-														<ul class="mag-box-filter-links is-flex-tabs">
-															
-															<!-- <li><a href="#" class="block-ajax-term block-all-term active">All</a></li> -->
-															@foreach ($pol as $pl)
-																@foreach ($master as $ct)
-																	
-																@endforeach
-															@endforeach
-															<li><a href="#" data-id="48" class="block-ajax-term">{{$pl->post_type}}</a></li>
-															
-															<li><a href="#" data-id="6" class="block-ajax-term">{{$po->post_type}}</a></li>
+												<h3> News </h3>
+											</div>
+											<div class="mag-box-container clearfix">
+												<ul class="posts-items posts-list-container">
+													@foreach ($post as $ns)
+													<li class="post-item is-trending tie-standard">
+														<div class="big-thumb-left-box-inner" data-lazy-bg="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($ns->image); ?>"> <a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span></a>
+															<div class="post-overlay">
+																<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">News</a>
+																	<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">{{$ns->title}}</a></h2>
+																	<div class="thumb-meta">
+																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$ns->post_by}}</a></span></span>
+																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($ns->date))}}</span>
+																			<!-- <div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
+																			</div> -->
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</li>
+													@endforeach
+													@foreach ($news as $ne)
+													<li class="post-item tie-standard">
+														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($ne->image); ?>" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($ne->date))}}</span></div>
+															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">{{$ne->title}}</a></h2> </div>
+													</li>
+													@endforeach
+												</ul>
+												<div class="clearfix"></div>
+											</div>	
+										</div>
 
-															<li><a href="#" data-id="139" class="block-ajax-term">{{$sp->post_type}}</a></li>
-
-															<li><a href="#" data-id="8" class="block-ajax-term">{{$st->post_type}}</a></li>
-															
-															<!-- <li><a href="#" data-id="140" class="block-ajax-term">Swimming</a></li>
-															<li><a href="#" data-id="64" class="block-ajax-term">Technology</a></li>
-															<li><a href="#" data-id="84" class="block-ajax-term">Travel</a></li>
-															<li><a href="#" data-id="1" class="block-ajax-term">World</a></li> -->
-														</ul>
-													</div>
-												</div>
+										<div class="container-wrapper">
+											<div class="mag-box-title the-global-title">
+												<h3> Politics </h3>
 											</div>
 											<div class="mag-box-container clearfix">
 												<ul class="posts-items posts-list-container">
@@ -152,8 +150,8 @@
 																	<div class="thumb-meta">
 																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$pl->post_by}}</a></span></span>
 																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($pl->date))}}</span>
-																			<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
-																			</div>
+																			<!-- <div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
+																			</div> -->
 																		</div>
 																	</div>
 																</div>
@@ -172,19 +170,25 @@
 												</ul>
 												<div class="clearfix"></div>
 											</div>
+										</div>
+
+										<div class="container-wrapper">
+											<div class="mag-box-title the-global-title">
+												<h3> Analysis </h3>
+											</div>
 											<div class="mag-box-container clearfix">
 												<ul class="posts-items posts-list-container">
-													@foreach ($post as $ns)
+													@foreach ($vis as $vi)
 													<li class="post-item is-trending tie-standard">
-														<div class="big-thumb-left-box-inner" data-lazy-bg="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($ns->image); ?>"> <a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span></a>
+														<div class="big-thumb-left-box-inner" data-lazy-bg="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($vi->image); ?>"> <a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span></a>
 															<div class="post-overlay">
-																<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">Politics</a>
-																	<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">{{$ns->title}}</a></h2>
+																<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">Analysis</a>
+																	<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">{{$vi->title}}</a></h2>
 																	<div class="thumb-meta">
-																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$ns->post_by}}</a></span></span>
-																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($ns->date))}}</span>
-																			<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
-																			</div>
+																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$vi->post_by}}</a></span></span>
+																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($vi->date))}}</span>
+																			<!-- <div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
+																			</div> -->
 																		</div>
 																	</div>
 																</div>
@@ -192,12 +196,123 @@
 														</div>
 													</li>
 													@endforeach
-													@foreach ($news as $ne)
+													@foreach ($opinion as $opi)
 													<li class="post-item tie-standard">
-														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($ne->image); ?>" /></a>
+														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($opi->image); ?>" /></a>
 														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($ne->date))}}</span></div>
-															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">{{$ne->title}}</a></h2> </div>
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($opi->date))}}</span></div>
+															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">{{$opi->title}}</a></h2> </div>
+													</li>
+													@endforeach
+												</ul>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+
+										<div class="container-wrapper">
+											<div class="mag-box-title the-global-title">
+												<h3> State </h3>
+											</div>
+											<div class="mag-box-container clearfix">
+												<ul class="posts-items posts-list-container">
+													@foreach ($state as $st)
+													<li class="post-item is-trending tie-standard">
+														<div class="big-thumb-left-box-inner" data-lazy-bg="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($st->image); ?>"> <a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span></a>
+															<div class="post-overlay">
+																<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">State</a>
+																	<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">{{$st->title}}</a></h2>
+																	<div class="thumb-meta">
+																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$st->post_by}}</a></span></span>
+																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($st->date))}}</span>
+																			<!-- <div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
+																			</div> -->
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</li>
+													@endforeach
+													@foreach ($po_state as $po_st)
+													<li class="post-item tie-standard">
+														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($po_st->image); ?>" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($po_st->date))}}</span></div>
+															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">{{$po_st->title}}</a></h2> </div>
+													</li>
+													@endforeach
+												</ul>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+
+										<div class="container-wrapper">
+											<div class="mag-box-title the-global-title">
+												<h3> Sport </h3>
+											</div>
+											<div class="mag-box-container clearfix">
+												<ul class="posts-items posts-list-container">
+													@foreach ($sport as $spo)
+													<li class="post-item is-trending tie-standard">
+														<div class="big-thumb-left-box-inner" data-lazy-bg="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($spo->image); ?>"> <a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span></a>
+															<div class="post-overlay">
+																<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">Sport</a>
+																	<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">{{$spo->title}}</a></h2>
+																	<div class="thumb-meta">
+																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$spo->post_by}}</a></span></span>
+																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($spo->date))}}</span>
+																			<!-- <div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
+																			</div> -->
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</li>
+													@endforeach
+													@foreach ($po_sport as $po_sp)
+													<li class="post-item tie-standard">
+														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($po_sp->image); ?>" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($po_sp->date))}}</span></div>
+															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">{{$po_sp->title}}</a></h2> </div>
+													</li>
+													@endforeach
+												</ul>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+
+										<div class="container-wrapper">
+											<div class="mag-box-title the-global-title">
+												<h3> Entertainment </h3>
+											</div>
+											<div class="mag-box-container clearfix">
+												<ul class="posts-items posts-list-container">
+													@foreach ($enter as $ent)
+													<li class="post-item is-trending tie-standard">
+														<div class="big-thumb-left-box-inner" data-lazy-bg="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($ent->image); ?>"> <a aria-label="Not who has much is rich, but who gives much" href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span></a>
+															<div class="post-overlay">
+																<div class="post-content"> <a class="post-cat tie-cat-75" href="category/world/creative/index.html">Entertainment</a>
+																	<h2 class="post-title"><a href="2016/10/20/not-who-has-much-is-rich-but-who-gives-much/index.html">{{$ent->title}}</a></h2>
+																	<div class="thumb-meta">
+																		<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Kartikey">{{$ent->post_by}}</a></span></span>
+																			</span><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($ent->date))}}</span>
+																			<!-- <div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 36,359 </span>
+																			</div> -->
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</li>
+													@endforeach
+													@foreach ($po_enter as $po_ent)
+													<li class="post-item tie-standard">
+														<a aria-label="The Top 10 Best Computer Speakers in the Market" href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The Top 10 Best Computer Speakers in the Market" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/<?php echo ($po_ent->image); ?>" /></a>
+														<div class="post-details">
+															<div class="post-meta clearfix"><span class="date meta-item tie-icon">{{date('M d, Y', strtotime($po_ent->date))}}</span></div>
+															<h2 class="post-title"><a href="2016/10/19/the-top-10-best-computer-speakers-in-the-market/index.html">{{$po_ent->title}}</a></h2> </div>
 													</li>
 													@endforeach
 												</ul>
@@ -205,106 +320,6 @@
 											</div>
 										</div>
 									</div>
-									<script>
-									var js_tie_block_3151 = {
-										"order": "latest",
-										"source": "id",
-										"id": ["48", "6", "139", "8", "140", "64", "84", "1"],
-										"number": "6",
-										"offset": "5",
-										"pagi": "next-prev",
-										"excerpt": "true",
-										"post_meta": "true",
-										"read_more": "true",
-										"filters": "true",
-										"breaking_effect": "reveal",
-										"sub_style": "big-thumb",
-										"style": "big-thumb",
-										"title_length": "",
-										"excerpt_length": "",
-										"media_overlay": "",
-										"read_more_text": ""
-									};
-									</script>
-									<div id="tie-block_1160" class="mag-box big-post-top-box has-first-big-post box-dark-skin dark-skin has-custom-color" data-current="1">
-										<div class="container-wrapper">
-											<div class="mag-box-title the-global-title">
-												<h3> Sports </h3>
-												<div class="tie-alignright">
-													<div class="mag-box-options">
-														<ul class="mag-box-filter-links is-flex-tabs">
-															<li><a href="#" class="block-ajax-term block-all-term active">State</a></li>
-															<li><a href="#" data-id="138" class="block-ajax-term">Entertainment</a></li>
-															<li><a href="#" data-id="139" class="block-ajax-term">Politics</a></li>
-															<li><a href="#" data-id="8" class="block-ajax-term">News</a></li>
-															<li><a href="#" data-id="140" class="block-ajax-term">Sport</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<div class="mag-box-container clearfix">
-												<ul class="posts-items posts-list-container">
-													<li class="post-item tie-video"> <a aria-label="Les nouveaux maillots du Real Madrid pour la saison" href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-138">Football</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Les nouveaux maillots du Real Madrid pour la saison" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/slide15-390x220.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">Fouad Badawy</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 6, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 9,554 </span>
-																</div>
-															</div>
-															<h2 class="post-title"><a href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html">Les nouveaux maillots du Real Madrid pour la saison</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that want to&hellip;</p> <a class="more-link button" href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html">Read More &raquo;</a> </div>
-													</li>
-													<li class="post-item tie-standard">
-														<a aria-label="I enjoy hard work I love setting goals and achieving them" href="2016/10/06/i-enjoy-hard-work-i-love-setting-goals-and-achieving-them/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of I enjoy hard work I love setting goals and achieving them" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/image9-220x150.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 6, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/06/i-enjoy-hard-work-i-love-setting-goals-and-achieving-them/index.html">I enjoy hard work I love setting goals and achieving them</a></h2> </div>
-													</li>
-													<li class="post-item tie-video">
-														<a aria-label="Here What&#8217;s in Battlefield 1&#8217;s $80 Deluxe Edition" href="2016/10/04/here-whats-in-battlefield-1s-80-deluxe-edition/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Here What&#8217;s in Battlefield 1&#8217;s $80 Deluxe Edition" loading="lazy" data-src="wp-content/uploads/sites/8/2016/06/pexels-photo-12838-220x150.jpeg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 4, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/04/here-whats-in-battlefield-1s-80-deluxe-edition/index.html">Here What&#8217;s in Battlefield 1&#8217;s $80 Deluxe Edition</a></h2> </div>
-													</li>
-													<li class="post-item tie-thumb">
-														<a aria-label="World champion Bingham knocks out Trump" href="2016/10/03/world-champion-bingham-knocks-out-trump/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of World champion Bingham knocks out Trump" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/image1-min-220x150.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 3, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/03/world-champion-bingham-knocks-out-trump/index.html">World champion Bingham knocks out Trump</a></h2> </div>
-													</li>
-													<li class="post-item tie-standard">
-														<a aria-label="Saturday&#8217;s non-league football" href="2016/10/03/saturdays-non-league-football/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Saturday&#8217;s non-league football" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-1-220x150.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="date meta-item tie-icon">Oct 3, 2016</span></div>
-															<h2 class="post-title"><a href="2016/10/03/saturdays-non-league-football/index.html">Saturday&#8217;s non-league football</a></h2> </div>
-													</li>
-												</ul>
-												<div class="clearfix"></div>
-											</div>
-										</div>
-									</div>
-									<script>
-									var js_tie_block_1160 = {
-										"order": "latest",
-										"source": "id",
-										"id": ["138", "139", "8", "140"],
-										"number": "5",
-										"offset": "1",
-										"pagi": "next-prev",
-										"dark": "true",
-										"excerpt": "true",
-										"excerpt_length": "22",
-										"post_meta": "true",
-										"read_more": "true",
-										"filters": "true",
-										"breaking_effect": "reveal",
-										"sub_style": "1c",
-										"style": "large-first",
-										"title_length": "",
-										"media_overlay": "",
-										"read_more_text": ""
-									};
-									</script>
 
 									<div id="tie-block_1837" class="mag-box miscellaneous-box first-post-gradient has-first-big-post media-overlay has-custom-color" data-current="1">
 										<div class="container-wrapper">
@@ -319,10 +334,10 @@
 													@foreach ($video as $vd)
 														@foreach ($master as $ct)
 														@endforeach
-													<li class="post-item is-trending tie-video"> <a aria-label="{{$vd->video_url}}" href="{{$vd->video_url}}" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span> <div class="post-thumb-overlay-wrap"> <div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div> </div> <img width="780" height="470" src="{{$vd->image}}" class="attachment-jannah-image-post size-jannah-image-post lazy-img wp-post-image" alt="Photo of Play This Game for Free on Steam This Weekend" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/11-1-780x470.jpg" /></a>
+													<li class="post-item is-trending tie-video"> <a aria-label="{{$vd->video_url}}" href="{{'/'}}{{$vd->video_url}}" class="post-thumb"><span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span> <div class="post-thumb-overlay-wrap"> <div class="post-thumb-overlay"> <span class="tie-icon tie-media-icon"></span> </div> </div> <img width="780" height="470" src="https://www.prashasanplusnews.com/public1/img/post/{{$vd->image}}" class="attachment-jannah-image-post size-jannah-image-post lazy-img wp-post-image" alt="Photo of Play This Game for Free on Steam This Weekend" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/{{$vd->image}}" /></a>
 														<div class="clearfix"></div>
 														<div class="post-overlay">
-															<div class="post-content"> <a class="post-cat tie-cat-75" href="#">Creative</a>
+															<div class="post-content"> <a class="post-cat tie-cat-75" href="#">News</a>
 																<h2 class="post-title"><a href="https://www.prashasanplusnews.com/<?php echo ($vdd ?? ''); ?>/<?php echo ($vd->subcat); ?>/<?php echo ($vd->url); ?>">{{$vd->title}}</a></h2>
 																<div class="thumb-meta">
 																	<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">{{$vd->post_by}}</a></span></span>
@@ -356,95 +371,6 @@
 										"style": "large-above",
 										"title_length": "",
 										"excerpt_length": "",
-										"read_more_text": ""
-									};
-									</script>
-									<div id="tie-s_1441" class="mag-box big-posts-box has-custom-color" data-current="1">
-										<div class="container-wrapper">
-											<div class="mag-box-title the-global-title">
-												<h3> Life Style </h3> </div>
-											<div class="mag-box-container clearfix">
-												<ul class="posts-items posts-list-container">
-													<li class="post-item post-1887 post type-post status-publish format-standard has-post-thumbnail category-life-style category-technology tag-apple tag-dell tag-tech is-trending tie-standard">
-														<a aria-label="25 Tricks That Will Increase Your Productivity" href="2016/10/12/25-office-design-tricks-that-will-increase-your-productivity-at-work/index.html" class="post-thumb">
-															<div class="digital-rating">
-																<div data-score="8.8" data-pct="87.5" data-lazy-pie="1" class="pie-wrap">
-																	<svg width="40" height="40" class="pie-svg">
-																		<circle r="19" cx="20" cy="20" fill="transparent" stroke-dasharray="119.38" stroke-dashoffset="0" class="circle_base"></circle>
-																		<circle r="19" cx="20" cy="20" fill="transparent" stroke-dasharray="119.38" stroke-dashoffset="0" class="circle_bar"></circle>
-																	</svg>
-																</div>
-															</div> <span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span><span class="post-cat-wrap"><span class="post-cat tie-cat-64">Technology</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of 25 Tricks That Will Increase Your Productivity" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/ben-white-148435-390x220.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">Fouad Badawy</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 12, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 11,068 </span>
-																</div>
-															</div>
-															<h2 class="post-title"><a href="2016/10/12/25-office-design-tricks-that-will-increase-your-productivity-at-work/index.html">25 Tricks That Will Increase Your Productivity</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that&hellip;</p>
-														</div>
-													</li>
-													<li class="post-item post-1896 post type-post status-publish format-standard has-post-thumbnail category-life-style category-technology tag-tech tie-standard">
-														<a aria-label="The Renault Trezor Concept is a Formula E car for the road" href="2016/10/10/the-renault-trezor-concept-is-a-formula-e-car-for-the-road/index.html" class="post-thumb">
-															<div class="post-rating image-stars">
-																<div class="stars-rating-bg"></div>
-																<div class="stars-rating-active" data-rate-val="88.166666666667%" data-lazy-percent="1">
-																	<div class="stars-rating-active-inner"> </div>
-																</div>
-															</div> <span class="post-cat-wrap"><span class="post-cat tie-cat-6">Life Style</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of The Renault Trezor Concept is a Formula E car for the road" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/pexels-photo-1-390x220.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/ashraf/index.html" class="author-name tie-icon" title="Ashraf Reda">Ashraf Reda</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 10, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 20,659 </span>
-																</div>
-															</div>
-															<h2 class="post-title"><a href="2016/10/10/the-renault-trezor-concept-is-a-formula-e-car-for-the-road/index.html">The Renault Trezor Concept is a Formula E car for the road</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that&hellip;</p>
-														</div>
-													</li>
-													<li class="post-item post-1980 post type-post status-publish format-standard has-post-thumbnail category-football tag-video tie-video"> <a aria-label="Les nouveaux maillots du Real Madrid pour la saison" href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-138">Football</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of Les nouveaux maillots du Real Madrid pour la saison" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/slide15-390x220.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">Fouad Badawy</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 6, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item very-hot"><span class="tie-icon-fire" aria-hidden="true"></span> 9,554 </span>
-																</div>
-															</div>
-															<h2 class="post-title"><a href="2016/10/06/drug-testing-scarce-in-scottish-football/index.html">Les nouveaux maillots du Real Madrid pour la saison</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that&hellip;</p>
-														</div>
-													</li>
-													<li class="post-item post-1992 post type-post status-publish format-standard has-post-thumbnail category-racing category-sports tag-timeline tie-standard"> <a aria-label="I enjoy hard work I love setting goals and achieving them" href="2016/10/06/i-enjoy-hard-work-i-love-setting-goals-and-achieving-them/index.html" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-139">Racing</span></span><img width="390" height="220" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAADcAQMAAABOLJSDAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAA4N8AKvgAAUFIrrEAAAAASUVORK5CYII=" class="attachment-jannah-image-large size-jannah-image-large lazy-img wp-post-image" alt="Photo of I enjoy hard work I love setting goals and achieving them" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/image9-390x220.jpg" /></a>
-														<div class="post-details">
-															<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper"><span class="meta-author"><a href="members/admin/index.html" class="author-name tie-icon" title="Fouad Badawy">Fouad Badawy</a></span></span>
-																</span><span class="date meta-item tie-icon">Oct 6, 2016</span>
-																<div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item hot"><span class="tie-icon-fire" aria-hidden="true"></span> 3,450 </span>
-																</div>
-															</div>
-															<h2 class="post-title"><a href="2016/10/06/i-enjoy-hard-work-i-love-setting-goals-and-achieving-them/index.html">I enjoy hard work I love setting goals and achieving them</a></h2>
-															<p class="post-excerpt">Stay focused and remember we design the best WordPress News and Magazine Themes. It’s the ones closest to you that&hellip;</p>
-														</div>
-													</li>
-												</ul>
-												<div class="clearfix"></div>
-											</div> <a class="block-pagination next-posts show-more-button load-more-button" data-text="Load More">Load More</a> </div>
-									</div>
-									<script>
-									var js_tie_s_1441 = {
-										"order": "latest",
-										"source": "id",
-										"id": ["75", "48", "138", "139", "8", "140", "64", "84", "1"],
-										"number": "4",
-										"offset": "11",
-										"pagi": "load-more",
-										"excerpt": "true",
-										"post_meta": "true",
-										"breaking_effect": "reveal",
-										"sub_style": "big",
-										"style": "default",
-										"title_length": "",
-										"excerpt_length": "",
-										"media_overlay": "",
 										"read_more_text": ""
 									};
 									</script>
@@ -586,95 +512,47 @@
 											</style>
 											<div class="clearfix"></div>
 										</div>
-										<div class="container-wrapper tabs-container-wrapper tabs-container-3">
-											<div class="widget tabs-widget">
-												<div class="widget-container">
-													<div class="tabs-widget">
-														<div class="tabs-wrapper">
-															<ul class="tabs">
-
-																<li><a href="#widget_tabs-11-recent">Recent News</a></li>
-
-															</ul>
-															
-															<div id="widget_tabs-11-recent" class="tab-content tab-content-recent">
-																<ul class="tab-content-elements">
-																	<li class="widget-single-post-item widget-post-list tie-video">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="Instagram’s big redesign goes live with black-and-white app" href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Instagram’s big redesign goes live with black-and-white app" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/new-demo-3-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2016/10/21/instagrams-big-redesign-goes-live-with-black-and-white-app/index.html">Instagram’s big redesign goes live with black-and-white app</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 21, 2016</span> </div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list is-trending tie-video">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html">Success is not a good teacher failure makes you humble</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 28, 2016</span> </div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list tie-standard">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="The secret of life is not to do what you like but to like what you do" href="2015/09/02/there-is-safety-in-numbers/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of The secret of life is not to do what you like but to like what you do" loading="lazy" data-src="wp-content/uploads/sites/8/2015/09/image-picjum-8-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2015/09/02/there-is-safety-in-numbers/index.html">The secret of life is not to do what you like but to like what you do</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Sep 2, 2015</span> </div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list tie-standard">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="After all is said and done, more is done" href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of After all is said and done, more is done" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-image-1-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html">After all is said and done, more is done</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 27, 2018</span>
-																				<div class="post-rating image-stars">
-																					<div class="stars-rating-bg"></div>
-																					<div class="stars-rating-active" data-rate-val="91.833333333333%" data-lazy-percent="1">
-																						<div class="stars-rating-active-inner"> </div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</li>
-																	<li class="widget-single-post-item widget-post-list tie-standard">
-																		<div class="post-widget-thumbnail">
-																			<a aria-label="Education is the best provision for the journey to old age" href="2015/10/02/education-is-the-best-provision-for-the-journey-to-old-age/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Education is the best provision for the journey to old age" loading="lazy" data-src="wp-content/uploads/sites/8/2015/10/image-picjum-9-220x150.jpg" /></a>
-																		</div>
-																		<div class="post-widget-body ">
-																			<h3 class="post-title"><a href="2015/10/02/education-is-the-best-provision-for-the-journey-to-old-age/index.html">Education is the best provision for the journey to old age</a></h3>
-																			<div class="post-meta"> <span class="date meta-item tie-icon">Oct 2, 2015</span> </div>
-																		</div>
-																	</li>
-																</ul>
-															</div>
-															
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div id="posts-list-widget-31" class="container-wrapper widget posts-list">
+										<div id="posts-list-widget-6" class="container-wrapper widget posts-list">
 											<div class="widget-title the-global-title">
 												<div class="the-subtitle">Recent News<span class="widget-title-icon tie-icon"></span></div>
 											</div>
 											<div class="widget-posts-list-container posts-list-counter">
+												
 												<ul class="posts-list-items widget-posts-wrapper">
+												@foreach ($recent as $rec)
 													<li class="widget-single-post-item widget-post-list is-trending tie-video">
 														<div class="post-widget-thumbnail">
-															<a aria-label="Success is not a good teacher failure makes you humble" href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html" class="post-thumb"><img width="220" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABLAQMAAACr9CA9AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUOI1jYMADmEe5o9xR7iiXQi4A4BsA388WUyMAAAAASUVORK5CYII=" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="wp-content/uploads/sites/8/2016/10/demo-new-11-220x150.jpg" /></a>
+															<a aria-label="Success is not a good teacher failure makes you humble" href="{{'/'}}{{$rec->url}}" class="post-thumb"><img width="220" height="150" src="https://www.prashasanplusnews.com/public1/img/post/{{$rec->image}}" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="{{$rec->title}}" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/{{$rec->image}}" /></a>
 														</div>
 														<div class="post-widget-body ">
-															<h3 class="post-title"><a href="2016/10/28/success-is-not-a-good-teacher-failure-makes-you-humble/index.html">Success is not a good teacher failure makes you humble.</a></h3>
-															<div class="post-meta"> <span class="date meta-item tie-icon">Oct 28, 2016</span> </div>
+															<h3 class="post-title"><a href="{{'/'}}{{$rec->url}}">{{$rec->title}}</a></h3>
+															<div class="post-meta"> <span class="date meta-item tie-icon">{{date('M d, Y', strtotime($rec->date))}}</span> </div>
 														</div>
 													</li>
-													
+												@endforeach
+												</ul>
+
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										
+										<div id="posts-list-widget-31" class="container-wrapper widget posts-list">
+											<div class="widget-title the-global-title">
+												<div class="the-subtitle">Life Style<span class="widget-title-icon tie-icon"></span></div>
+											</div>
+											<div class="widget-posts-list-container posts-list-counter">
+												<ul class="posts-list-items widget-posts-wrapper">
+													@foreach ($lifestyle as $life)
+														<li class="widget-single-post-item widget-post-list is-trending tie-video">
+															<div class="post-widget-thumbnail">
+																<a aria-label="Success is not a good teacher failure makes you humble" href="{{'/'}}{{$life->url}}" class="post-thumb"><img width="220" height="150" src="https://www.prashasanplusnews.com/public1/img/post/{{$life->image}}" class="attachment-jannah-image-small size-jannah-image-small lazy-img tie-small-image wp-post-image" alt="Photo of Success is not a good teacher failure makes you humble" loading="lazy" data-src="https://www.prashasanplusnews.com/public1/img/post/{{$life->image}}" /></a>
+															</div>
+															<div class="post-widget-body ">
+																<h3 class="post-title"><a href="{{'/'}}{{$life->url}}">{{$life->title}}</a></h3>
+																<div class="post-meta"> <span class="date meta-item tie-icon">{{date('M d, Y', strtotime($life->date))}}</span> </div>
+															</div>
+														</li>
+													@endforeach
 												</ul>
 											</div>
 											<div class="clearfix"></div>
