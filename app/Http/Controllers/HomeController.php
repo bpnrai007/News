@@ -45,6 +45,7 @@ class HomeController extends Controller{
 		$lifestyle 	= DB::table('post')->where('post_type','=','Lifestyle')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
 
 		$recent		= DB::table('post')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
+		
 
 		
 		return view('index')->with('post',$post)->with('news',$news)->with('sport',$sport)->with('po_sport',$po_sport)->with('vis',$vis)->with('opinion',$opinion)->with('state',$state)->with('po_state',$po_state)->with('astro',$astro)->with('pol',$pol)->with('politics',$politics)->with('enter',$enter)->with('po_enter',$po_enter)->with('video',$video)->with('lifestyle',$lifestyle)->with('recent',$recent)->with('pop_cat',$pop_cat);
@@ -54,10 +55,11 @@ class HomeController extends Controller{
 		
 		$post 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
 		$news 		= DB::table('post')->where('post_type','=','News')->where('status','=','active')->orderBy('id','desc')->take(5)->get();
-		
+
 		$state 		= DB::table('post')->where('post_type','=','State')->where('status','=','active')->orderBy('id','desc')->take(1)->get();
 		$lifestyle 	= DB::table('post')->where('post_type','=','Lifestyle')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
 		$recent		= DB::table('post')->where('status','=','active')->orderBy('id','desc')->take(6)->get();
+
 		return view('news', $post)->with('lifestyle',$lifestyle)->with('recent',$recent);
 	}
 

@@ -3377,9 +3377,8 @@
 
 										<ul id="breaking-news-in-header" class="breaking-news" data-type="reveal" data-arrows="true">
 											
-												<li class="news-item"> <a href="#"></a>
-												</li>
-
+												<li class="news-item"> <a href="2018/10/27/after-all-is-said-and-done-more-is-done/index.html">Hiiiiiiiiiiiiiiiii</a> </li>
+											
 										</ul>
 
 									</div>
@@ -3512,7 +3511,7 @@
 							<div class="footer-widget-area ">
 								<div class="tie-row">
 
-									<div class="tie-col-md-4 normal-side">
+									<div class="tie-col-md-3 normal-side">
 										<div id="posts-list-widget-9" class="container-wrapper widget posts-list">
 											<div class="widget-title the-global-title">
 												<div class="the-subtitle">Most Viewed Posts<span class="widget-title-icon tie-icon"></span></div>
@@ -3537,7 +3536,7 @@
 										</div>
 									</div>
 									
-									<div class="tie-col-md-4 normal-side">
+									<div class="tie-col-md-3 normal-side">
 										<div id="tag_cloud-6" class="container-wrapper widget widget_tag_cloud">
 											<div class="widget-title the-global-title">
 												<div class="the-subtitle">POPULAR CATEGORIES<span class="widget-title-icon tie-icon"></span></div>
@@ -3551,7 +3550,17 @@
 										</div>
 									</div>
 
-									<div class="tie-col-md-4 normal-side">
+									<div class="tie-col-md-3 normal-side">
+										<div id="tag_cloud-6" class="container-wrapper widget widget_tag_cloud">
+											<div class="widget-title the-global-title">
+												<div class="the-subtitle">Tags<span class="widget-title-icon tie-icon"></span></div>
+											</div>
+											<div class="tagcloud"><a href="tag/apple/index.html" class="tag-cloud-link tag-link-17 tag-link-position-1" style="font-size: 11.230769230769pt;" aria-label="apple (2 items)">apple</a> <a href="tag/dell/index.html" class="tag-cloud-link tag-link-146 tag-link-position-2" style="font-size: 8pt;" aria-label="Dell (1 item)">Dell</a> <a href="tag/egypt/index.html" class="tag-cloud-link tag-link-145 tag-link-position-3" style="font-size: 8pt;" aria-label="Egypt (1 item)">Egypt</a> <a href="tag/fashion/index.html" class="tag-cloud-link tag-link-147 tag-link-position-4" style="font-size: 8pt;" aria-label="Fashion (1 item)">Fashion</a> <a href="tag/featured/index.html" class="tag-cloud-link tag-link-162 tag-link-position-5" style="font-size: 16.615384615385pt;" aria-label="featured (5 items)">featured</a> <a href="tag/food/index.html" class="tag-cloud-link tag-link-154 tag-link-position-6" style="font-size: 21.282051282051pt;" aria-label="food (10 items)">food</a> <a href="tag/football/index.html" class="tag-cloud-link tag-link-200 tag-link-position-7" style="font-size: 11.230769230769pt;" aria-label="football (2 items)">football</a> <a href="tag/google/index.html" class="tag-cloud-link tag-link-22 tag-link-position-8" style="font-size: 8pt;" aria-label="google (1 item)">google</a> <a href="tag/life-style/index.html" class="tag-cloud-link tag-link-155 tag-link-position-9" style="font-size: 19.666666666667pt;" aria-label="life style (8 items)">life style</a> <a href="tag/olympics/index.html" class="tag-cloud-link tag-link-141 tag-link-position-10" style="font-size: 11.230769230769pt;" aria-label="olympics (2 items)">olympics</a> <a href="tag/philps/index.html" class="tag-cloud-link tag-link-142 tag-link-position-11" style="font-size: 8pt;" aria-label="philps (1 item)">philps</a> <a href="tag/race/index.html" class="tag-cloud-link tag-link-91 tag-link-position-12" style="font-size: 8pt;" aria-label="Race (1 item)">Race</a> <a href="tag/rio-2016/index.html" class="tag-cloud-link tag-link-143 tag-link-position-13" style="font-size: 11.230769230769pt;" aria-label="rio 2016 (2 items)">rio 2016</a> <a href="tag/tech/index.html" class="tag-cloud-link tag-link-94 tag-link-position-14" style="font-size: 22pt;" aria-label="Tech (11 items)">Tech</a> <a href="tag/timeline/index.html" class="tag-cloud-link tag-link-163 tag-link-position-15" style="font-size: 22pt;" aria-label="timeline (11 items)">timeline</a> <a href="tag/twitter-video/index.html" class="tag-cloud-link tag-link-199 tag-link-position-16" style="font-size: 11.230769230769pt;" aria-label="Twitter Video (2 items)">Twitter Video</a> <a href="tag/video/index.html" class="tag-cloud-link tag-link-62 tag-link-position-17" style="font-size: 20.564102564103pt;" aria-label="Video (9 items)">Video</a> <a href="tag/western-foods/index.html" class="tag-cloud-link tag-link-144 tag-link-position-18" style="font-size: 8pt;" aria-label="Western Foods (1 item)">Western Foods</a></div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+
+									<div class="tie-col-md-3 normal-side">
 										<div id="latest_tweets_widget-4" class="container-wrapper widget latest-tweets-widget">
 											<div class="widget-title the-global-title">
 												<div class="the-subtitle"><a href="http://twitter.com/tielabs" rel="nofollow noopener">CONTACT US</a><span class="widget-title-icon tie-icon"></span></div>
